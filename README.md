@@ -9,7 +9,7 @@ An intelligent Q&A system that allows users to upload documents (PDFs, Notion ex
 - **Vector Search**: Fast similarity search using FAISS and Sentence Transformers
 - **RAG System**: Retrieval-Augmented Generation for contextual answers
 - **Chat Interface**: Clean, modern chat UI with source citations
-- **Open Source**: No paid APIs required - runs entirely on open-source models
+
 
 ## 🎯 Target Users
 
@@ -32,6 +32,7 @@ An intelligent Q&A system that allows users to upload documents (PDFs, Notion ex
 - **FAISS** for vector storage and similarity search
 - **pdfplumber & PyMuPDF** for PDF processing
 - **BeautifulSoup & html2text** for HTML/Markdown processing
+- **Google Gemini API**
 
 ## 🚀 Getting Started
 
@@ -121,8 +122,6 @@ An intelligent Q&A system that allows users to upload documents (PDFs, Notion ex
 ## 🔮 Future Enhancements
 
 ### Planned Features
-- **LLM Integration**: Add support for local models (Ollama, GPT4All)
-- **Multi-document Q&A**: Ask questions across multiple documents
 - **Advanced Chunking**: Semantic chunking based on document structure
 - **Export Options**: Save Q&A sessions as PDF or Markdown
 - **User Authentication**: Multi-user support with document privacy
@@ -137,9 +136,7 @@ An intelligent Q&A system that allows users to upload documents (PDFs, Notion ex
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
@@ -150,4 +147,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ for the open-source community**
